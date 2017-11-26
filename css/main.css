@@ -1,8 +1,14 @@
 html {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   line-height: 1.5;
+  box-sizing: border-box;
+}
+
+* {
+  color: #fff;
+  box-sizing: inherit;
 }
 
 body {
@@ -43,11 +49,6 @@ h1 {
   border: 1px solid #a63f38;
 }
 
-.words {
-  color: #fff;
-  text-decoration: none;
-}
-
 .nav li {
   float: left;
   width: 33.3%;
@@ -60,7 +61,7 @@ h1 {
 
 .nav a {
   display: block;
-  padding: 0em;
+  padding: 0;
   text-decoration: none;
 }
 
